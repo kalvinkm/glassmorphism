@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 97vh;
+    background-color: #222;
+    background-image: url('./../imgs/navio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hello-world {
+    text-align: center;
+    color: #fff;
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin: 300px auto;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+h1 {
+    padding: 110px;
+    font-size: 3em;
+}
